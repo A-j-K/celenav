@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+
+        <Style id="id-A">
+                <LineStyle>
+                        <color>ff0000ff</color>
+                        <width>10</width>
+                </LineStyle>
+                <PolyStyle>
+                        <fill>0</fill>
+                </PolyStyle>
+        </Style>
+        <Style id="id-B">
+                <LineStyle>
+                        <color>ff0000ff</color>
+                        <width>10</width>
+                </LineStyle>
+                <PolyStyle>
+                        <fill>0</fill>
+                </PolyStyle>
+        </Style>
+        <StyleMap id="id-style">
+                <Pair>
+                        <key>normal</key>
+                        <styleUrl>#id-A</styleUrl>
+                </Pair>
+                <Pair>
+                        <key>highlight</key>
+                        <styleUrl>#id-B</styleUrl>
+                </Pair>
+        </StyleMap>
+            <Placemark>
+    <styleUrl>#id-style</styleUrl>
+    <LineString>
+     <extrude>1</extrude>
+     <tessellate>1</tessellate>
+     <altitudeMode>absolute</altitudeMode>
+       <coordinates>-17.21684,29.21289,0 -17.21684,29.21289,100000</coordinates>
+    </LineString>
+    </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,8 @@
+
+include("navstars-common.inc");
+
+core.setDate("2021-11-29T20:42:33");
+core.setTimeRate(0);
+
+core.selectObjectByName("Vega", false);
+StelMovementMgr.setFlagTracking(true);
