@@ -1,0 +1,2 @@
+# celenav
+Celestial Navigation Manual
